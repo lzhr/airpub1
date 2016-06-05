@@ -1,0 +1,66 @@
+{
+  "name": "airpub",
+  "version": "0.3.2",
+  "description": "a pure front-end blog engine powered by duoshuo API",
+  "main": "index.html",
+  "author": {
+    "name": "turing",
+    "email": "o.u.turing@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "bin/build.sh",
+    "build-deps": "npm run build-dependency-js && npm run build-dependency-css",
+    "build-deps-js": "bin/build-dependency-js.sh",
+    "build-deps-css": "bin/build-dependency-css.sh",
+    "serve": "serve --no-less .",
+    "watch": "rewatch src/*.js src/**/*.js -c 'npm run build'",
+    "dev": "npm run serve & npm run watch",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duoshuo/airpub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duoshuo/airpub/issues"
+  },
+  "keywords": [
+    "air",
+    "publish",
+    "press",
+    "airpub",
+    "cms",
+    "blog",
+    "blog platform",
+    "angular"
+  ],
+  "devDependencies": {
+    "serve": "~1.4.0",
+    "uglify-js": "^2.4.15",
+    "rewatch": "~0.2.2",
+    "clean-css": "^2.2.13"
+  },
+  "gitHead": "e171385334573ee75690ba60bdab02a9b5c84f4f",
+  "homepage": "https://github.com/duoshuo/airpub",
+  "_id": "airpub@0.3.2",
+  "_shasum": "dc14f3ee1fbd37e88e956adb0cb4d673cbea76bd",
+  "_from": "airpub@latest",
+  "_npmVersion": "1.4.27",
+  "_npmUser": {
+    "name": "turing",
+    "email": "o.u.turing@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "turing",
+      "email": "o.u.turing@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "dc14f3ee1fbd37e88e956adb0cb4d673cbea76bd",
+    "tarball": "https://registry.npmjs.org/airpub/-/airpub-0.3.2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/airpub/-/airpub-0.3.2.tgz"
+}
