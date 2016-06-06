@@ -4,7 +4,7 @@ var airpubConfigs = {
   // just a little description
   description: '轻如蝉翼的写作工具',
   // blog uri
-  url: 'http://lzhr.github.io/airpub',
+  url: 'http://lzhr.github.io/airpub1',
   // blog theme
    theme: 'chill',
    themePath: 'http://lzhr.github.io/airpub1/bower_components'
