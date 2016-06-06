@@ -9,7 +9,7 @@
     ]);
 
   function archiveCtrler($scope, $state, $duoshuo, $rootScope) {
-    $scope.itemsPerPage = 10;
+    $scope.itemsPerPage = 6;
     $scope.currentPage = parseNumber($state.params.page) || 1;
     $rootScope.$emit('updateMeta', $scope.configs.name);
 
