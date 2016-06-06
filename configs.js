@@ -6,7 +6,8 @@ var airpubConfigs = {
   // blog uri
   url: 'http://lzhr.github.io/airpub',
   // blog theme
-  // theme: 'my-theme',
+   theme: 'chill',
+   themePath: 'http://lzhr.github.io/airpub1/bower_components'
   // for images upload
  // upyun: {
   //  bucket: 'mybucket',
